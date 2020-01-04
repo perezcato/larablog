@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a0417d4-5550-4791-96a5-a6a763c880ae" name="Default Changelist" comment="" />
+    <list default="true" id="9a0417d4-5550-4791-96a5-a6a763c880ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/forum_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/forum_app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/SocialAuthentication.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/SocialAuthentication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/tailwind.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/auth.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/AuthTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/AuthTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +50,35 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="forum@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="forum@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="forum@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="forum: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -116,9 +169,19 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/facebook/webdriver" />
+      <path value="$PROJECT_DIR$/vendor/laravel/dusk" />
+      <path value="$PROJECT_DIR$/vendor/laravel/socialite" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth1-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
     </include_path>
   </component>
   <component name="ProjectId" id="1VoGps5OOyxI52WzRCyJoyXdqBY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -127,32 +190,39 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/layouts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.AuthTest.testRegisterUser">
+    <configuration name="AuthTest.testRegisterUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\AuthTest" file="$PROJECT_DIR$/tests/Feature/AuthTest.php" method="testRegisterUser" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.AuthTest.testRegisterUser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:forum@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:forum@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@3566699d" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -171,7 +241,8 @@
       <updated>1577912219160</updated>
       <workItem from="1577912227696" duration="344000" />
       <workItem from="978307363113" duration="1021000" />
-      <workItem from="1577960452382" duration="424000" />
+      <workItem from="1577960452382" duration="21092000" />
+      <workItem from="978307812331" duration="17535000" />
     </task>
     <servers />
   </component>
@@ -179,10 +250,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="351" y="58" key="#AuthTest.testRegisterUser" timestamp="1577963038333">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="351" y="58" key="#AuthTest.testRegisterUser/0.0.1440.896@0.0.1440.896" timestamp="1577963038333" />
     <state x="320" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577960501469">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
     <state x="320" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.896@0.0.1440.896" timestamp="1577960501469" />
+    <state x="458" y="210" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577962323048">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="458" y="210" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.896@0.0.1440.896" timestamp="1577962323048" />
     <state width="699" height="225" key="GridCell.Tab.0.bottom" timestamp="1577933209599">
       <screen x="0" y="0" width="1440" height="896" />
     </state>
@@ -199,5 +278,29 @@
       <screen x="0" y="0" width="1440" height="896" />
     </state>
     <state width="699" height="225" key="GridCell.Tab.0.right/0.0.1440.896@0.0.1440.896" timestamp="1577933209596" />
+    <state x="350" y="257" key="NewPhpClassDialog" timestamp="1578144791691">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="350" y="257" key="NewPhpClassDialog/0.0.1440.896@0.0.1440.896" timestamp="1578144791691" />
+    <state x="541" y="376" key="NewPhpFileDialog" timestamp="1578144755369">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="541" y="376" key="NewPhpFileDialog/0.0.1440.896@0.0.1440.896" timestamp="1578144755369" />
+    <state x="229" y="87" key="SettingsEditor" timestamp="1578003877638">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="229" y="87" key="SettingsEditor/0.0.1440.896@0.0.1440.896" timestamp="1578003877638" />
+    <state x="614" y="344" width="340" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1578160242935">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="614" y="344" width="340" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.896@0.0.1440.896" timestamp="1578160242935" />
+    <state x="384" y="282" key="com.intellij.ide.util.TipDialog" timestamp="978307813780">
+      <screen x="0" y="22" width="1440" height="874" />
+    </state>
+    <state x="384" y="282" key="com.intellij.ide.util.TipDialog/0.22.1440.874@0.22.1440.874" timestamp="978307813780" />
+    <state x="385" y="195" width="670" height="676" key="search.everywhere.popup" timestamp="1577987893777">
+      <screen x="0" y="0" width="1440" height="896" />
+    </state>
+    <state x="385" y="195" width="670" height="676" key="search.everywhere.popup/0.0.1440.896@0.0.1440.896" timestamp="1577987893777" />
   </component>
 </project>

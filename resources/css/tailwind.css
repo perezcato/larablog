@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+.login-label{
+    @apply font-extrabold text-blue-900 text-xs;
+}
+.auth-container{
+   @apply w-2/6 mx-auto rounded mt-24 py-2 px-16;
+}
+.auth-input{
+    @apply mt-1 rounded-lg border border-blue-900 text-sm px-2 py-2 w-full bg-white;
+}
+
+@tailwind utilities;

@@ -11,6 +11,7 @@
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -18,3 +19,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('category','CategoryController');
+/*
+ * Routes for social authentication
+ */
+Route::get('/login/github','Auth\LoginController@githubLogin')->name('github.login');
+Route::get('/login/github/callback','Auth\LoginController@handleGithubCallback')->name('github.callback');
