@@ -51,6 +51,7 @@ trait SocialAuthentication
             'login' => $username,
             'email' => $email
         ] = $user->user;
+
         $findUser = User::where('social_id', $social_id)->first();
         if($findUser){
             Auth::login($findUser);

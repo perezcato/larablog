@@ -59,6 +59,12 @@
                 @endif
             </div>
 
+            <div class="mt-4 w-full">
+                <a href="#" class="w-full text-white bg-gray-900 py-2 rounded  ">
+                    Login in GitHub
+                </a>
+            </div>
+
         </form>
     </div>
 @endsection
