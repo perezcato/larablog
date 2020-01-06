@@ -22,11 +22,11 @@ class CreateUsersTable extends Migration
             $table->string('password')->nullable();
             $table->string('avatar_url')->nullable();
             $table->string('social_id')->nullable();
+            $table->boolean('site_admin')->default(false);
             $table->rememberToken();
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      *

@@ -20,7 +20,7 @@
     <link href="{{ asset('css/tailwind.css') }}" rel="stylesheet">
 </head>
 <body>
-    <div id="app" class="bg-gray-300 h-screen">
+    <div id="app" class="h-screen" style="background-image: url({{asset('images/repeat-back.png')}})">
         <main class="py-4">
             @yield('content')
         </main>

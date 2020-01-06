@@ -55,7 +55,7 @@ trait SocialAuthentication
         $findUser = User::where('social_id', $social_id)->first();
         if($findUser){
             Auth::login($findUser);
-            return redirect()->route('/home');
+            return redirect('/home');
         }
 
         $user = User::create([
@@ -66,6 +66,6 @@ trait SocialAuthentication
             'social_id' => $social_id
         ]);
         Auth::login($user);
-        return redirect()->route('/home');
+        return redirect('/home');
     }
 }

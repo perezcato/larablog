@@ -28,8 +28,8 @@
 
                     @error('password')
                     <span class="text-xs text-red-600 font-bold" role="alert">
-                                        <strong> {{$message}} </strong>
-                                    </span>
+                        <strong> {{$message}} </strong>
+                    </span>
                     @enderror
                 </div>
             </div>
@@ -60,8 +60,8 @@
             </div>
 
             <div class="mt-4 w-full">
-                <a href="#" class="w-full text-white bg-gray-900 py-2 rounded  ">
-                    Login in GitHub
+                <a href="{{route('github.login')}}" class="w-full inline-block text-center text-white bg-gray-800 py-2 rounded  ">
+                    Login with GitHub
                 </a>
             </div>
 
